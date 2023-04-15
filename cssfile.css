@@ -1,0 +1,52 @@
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size:cover
+  }
+  .logo{
+    display: flex;
+    margin: 0px auto;
+  }
+  .logo img{
+    width: 250px;
+    margin: 0px auto;
+  }
+  .search-container {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .search-container .search{
+    padding: 5px;
+  margin-left: 5px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  }
+  .search-container .submit
+  {
+    padding: 5px;
+  border: none;
+  background: #ee0a9a;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+
+  .logout-container 
+{
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+
+.logout 
+{
+  padding: 5px;
+  border: none;
+  background: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
